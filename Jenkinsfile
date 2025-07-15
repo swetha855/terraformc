@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    TF_VAR_region       = 'ap-south-2'
+    TF_VAR_region       = 'ap-south-1'
     TF_VAR_env          = 'dev'
     TERRAFORM_VERSION   = '1.12.2'
   }
